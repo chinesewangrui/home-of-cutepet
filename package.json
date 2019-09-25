@@ -1,20 +1,31 @@
 {
-  "name": "petserver",
-  "version": "1.0.0",
-  "engines": {
-    "node":"10.16.3"
-  },
-  "description": "",
-  "main": "index.js",
+  "name": "pethome",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start":"node index.js"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "express-session": "^1.16.2",
-    "mysql": "^2.17.1"
-  }
+    "axios": "^0.19.0",
+    "core-js": "^2.6.5",
+    "mint-ui": "^2.2.13",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }
